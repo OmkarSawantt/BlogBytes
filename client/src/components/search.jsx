@@ -68,7 +68,7 @@ const Search = () => {
           <HiMagnifyingGlass className='searchIcon' />
         </button>
         <input
-          type="search"
+          type="text"
           placeholder="Search..."
           value={searchTerm}
           onChange={handleInputChange}
