@@ -705,7 +705,7 @@ width: 100%;
     flex-direction: row;
   }
   
-  .search1 input[type="search"] {
+  .search1 input[type="text"] {
     background:transparent;
     border:0;
     outline:none;
