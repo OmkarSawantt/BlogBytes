@@ -64,7 +64,7 @@ const Search = () => {
       <div className='search1'>
         <button type="submit" className='searchbtn' onClick={searched}><HiMagnifyingGlass className='searchIcon' /></button>
         <input
-          type="search"
+          type="text"
           placeholder="Search..."
           value={searchTerm}
           onChange={handleInputChange}
