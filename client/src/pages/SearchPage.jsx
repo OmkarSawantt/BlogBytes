@@ -6,7 +6,7 @@ import PostItem from '../components/PostItem';
 
 const SearchPage = () => {
   const location = useLocation();
-  const searchTerm = location.state;
+  const searchTerm = String(location.state);
   const [posts, setPosts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
