@@ -47,6 +47,9 @@ const Search = () => {
   };
 
   const searched = () => {
+    if(searchTerm===null){
+      return;
+    }
     navigate('/search',{state:searchTerm  })
   }
 
