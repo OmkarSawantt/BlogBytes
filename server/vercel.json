@@ -9,12 +9,16 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
     {
       "src":"/api/(.*)",
-      "dest":"index.js"
-    }
+      "dest":"/index.js"
+    },
+    {
+      "src":"/api/posts/(.*)"
+      "dest":"/index.js"
+    },
   ],
   "env": {
     "MONGO__URI": "mongodb+srv://omkar981952:XjcGwsaYlGGrFOF5@cluster1.zzkwt0z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1/New",
