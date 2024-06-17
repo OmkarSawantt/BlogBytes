@@ -12,8 +12,8 @@ const Search = () => {
   const navigate=useNavigate()
 
   const handleInputChange = (event) => {
-    const inputValue = event.target.value.toLowerCase();
-
+    const inputValue = event.target.value;
+    inputValue=Case();
     setSearchTerm(inputValue);
 
     if (inputValue.length > 0) {
